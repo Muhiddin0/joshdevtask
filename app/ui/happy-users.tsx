@@ -14,7 +14,7 @@ const HappyUsers = (props: Props) => {
         alt="happy users"
       />
       <b className="container absolute text-xl md:text-2xl font-semibold text-center w-full">
-        We've helped over 1,000 creatorsre claim control of their audience.
+        We&apos;ve helped over 1,000 creatorsre claim control of their audience.
       </b>
     </section>
   );

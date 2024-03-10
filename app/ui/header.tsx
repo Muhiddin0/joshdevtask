@@ -137,7 +137,7 @@ const Header = (props: Props) => {
 
   return (
     <header className="">
-      <div className="container flex items-center justify-between gap-3 py-6">
+      <div className="container flex items-center max-[350px]:flex-col justify-between gap-3 py-6">
         <Logo />
 
         <ul className="hidden md:flex gap-4">
@@ -164,9 +164,9 @@ const Header = (props: Props) => {
         </div>
 
         {/* Mobile  menu */}
-        <div className="block md:hidden">
+        <div className="flex md:hidden max-[350px]:w-full">
           <input id="my-drawer" type="checkbox" className="drawer-toggle" />
-          <div className="">
+          <div className="flex gap-2 max-[350px]:justify-between w-full">
             {/* {theme_button} */}
 
             <label htmlFor="theme-drawer" className="btn btn-circle">

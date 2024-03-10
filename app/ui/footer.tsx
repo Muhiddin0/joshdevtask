@@ -34,13 +34,17 @@ const Footer = (props: Props) => {
 
   return (
     <footer>
-      <div className="container flex items-center justify-between mt-6 py-5">
+      <div className="container flex items-center justify-between flex-col sm:flex-row gap-4 mt-6 py-5">
         <div>
           <Logo />
-          <p className="text-secondary">info@marico.co</p>
+          <p className="text-secondary text-center sm:text-start">
+            info@marico.co
+          </p>
         </div>
 
-        <ul className="flex gap-3">{footer_items}</ul>
+        <ul className="flex gap-3 flex-grow-[2] justify-around sm:justify-end">
+          {footer_items}
+        </ul>
       </div>
     </footer>
   );
