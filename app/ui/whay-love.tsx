@@ -5,7 +5,7 @@ type Props = {};
 const WhayLover = (props: Props) => {
   return (
     <section className="">
-      <div className="container px-5 py-24 mx-auto">
+      <div className="container py-5 mx-auto">
         <div data-aos="fade-up" className="text-center mb-20">
           <h1 className="sm:text-3xl text-2xl font-semibold title-font mb-4">
             Why Creators Love Marico

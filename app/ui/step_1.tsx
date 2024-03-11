@@ -10,7 +10,7 @@ type Props = {
 const StepsView = ({ step, title, description, button_value }: Props) => {
   return (
     <section>
-      <div className="container py-6 text-center">
+      <div className="container py-3 text-center mt-20 mb-5">
         <p data-aos="flip-up" className="text-primary text-center">
           Step {step}
         </p>
